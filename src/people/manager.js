@@ -4,10 +4,7 @@ function Manager(name, contact) {
   // set name and contact
   
   this.properties = [];
-  Manager.all.push(this);
 }
-
-Manager.all = [];
 
 Manager.prototype.addProperty = function(property) {
   // add property from properties
@@ -16,3 +13,5 @@ Manager.prototype.addProperty = function(property) {
 Manager.prototype.removeProperty = function(property) {
   // remove properties
 };
+
+module.exports = Manager;
