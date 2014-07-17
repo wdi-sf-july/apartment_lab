@@ -1,0 +1,26 @@
+{
+  "name": "apartment_lab",
+  "version": "0.0.1",
+  "description": "a lab for playing with constructors and prototypes in JS",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npm run mocha test --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wdi-sf-july/apartment_lab.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wdi-sf-july/apartment_lab/issues"
+  },
+  "homepage": "https://github.com/wdi-sf-july/apartment_lab",
+  "dependencies": {
+    "chai": "^1.9.1",
+    "mocha": "^1.20.1",
+    "sync-prompt": "^0.4.1"
+  }
+}
