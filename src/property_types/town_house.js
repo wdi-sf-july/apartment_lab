@@ -5,7 +5,7 @@ function TownHouse(address){
 };
 
 TownHouse.prototype.available = function(){
-  // a tenat it should not be available
+  // a tenant it should not be available
 };
 
 module.exports = TownHouse;

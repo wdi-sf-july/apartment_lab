@@ -11,13 +11,13 @@ Property.prototype.getManager = function(){
   // return this.manager 
 };
 
-Property.prototype.addTenant = function(unit, tenat) {
-  // add tenat but check to make sure there
-  // is a manager first and a tenat has 2 references
+Property.prototype.addTenant = function(unit, tenant) {
+  // add tenant but check to make sure there
+  // is a manager first and a tenant has 2 references
 };
 
-Property.prototype.removeTenat = function(unit, tenat) {
-  // remove tenat
+Property.prototype.removeTenant = function(unit, tenant) {
+  // remove tenant
 };
 
 Property.prototype.availableUnits = function(){

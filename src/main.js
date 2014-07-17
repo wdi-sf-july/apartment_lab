@@ -2,7 +2,7 @@ var prompt = require('sync-prompt').prompt;
 
 var Person = require('./people/person.js'),
   Manager = require('./people/manager'),
-  Tenat = require('./people/tenat');
+  Tenant = require('./people/tenant');
 
 var Property = require('./property_types/property'),
   Duplex = require('./property_types/duplex.js'),
@@ -18,7 +18,7 @@ var App = {};
 // module
 App.Person = Person;
 App.Manager = Manager;
-App.Tenat = Tenat;
+App.Tenant = Tenant;
 
 // Add our types of properties
 // to our module

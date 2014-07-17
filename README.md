@@ -22,11 +22,11 @@ Both `Manager` and `Tenant` should *inherit* methods from `Person`, and implemen
 ##### Relationships
 
 * `Manager` has many `properties`
-* `Tenat` has a many `references` that are just `Person` instances with contact info. 
+* `Tenant` has a many `references` that are just `Person` instances with contact info. 
 
 #### Property
 
-With `Property` we have three property types `Duplex`, `TownHouse`, and `ApartmentBuilding`. A generic `Property` should always have a `Manager` before `tenats` can move in. All `Tenants` should have `two` references before moving in.
+With `Property` we have three property types `Duplex`, `TownHouse`, and `ApartmentBuilding`. A generic `Property` should always have a `Manager` before `tenants` can move in. All `Tenants` should have `two` references before moving in.
 
 ##### Relationships
 
