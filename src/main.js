@@ -1,5 +1,3 @@
-var prompt = require('sync-prompt').prompt;
-
 var Person = require('./people/person.js'),
   Manager = require('./people/manager'),
   Tenant = require('./people/tenant');
