@@ -1,6 +1,6 @@
 var Person = require('./people/person.js'),
-  Manager = require('./people/manager'),
-  Tenant = require('./people/tenant');
+  Manager = require('./people/manager.js'),
+  Tenant = require('./people/tenant.js');
 
 var Property = require('./property_types/property'),
   Duplex = require('./property_types/duplex.js'),
