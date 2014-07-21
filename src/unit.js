@@ -4,7 +4,7 @@ function Unit (number, building, sqft, rent) {
 }
 
 Unit.prototype.available = function(){
-  // check for tenant
+  return !(this.tenant);
 }
 
 
