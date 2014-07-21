@@ -1,4 +1,4 @@
-var person = require("./person.js");
+var Person = require("./person.js");
 
 function Tenant(name, contact) {
   // set this.name, and contact

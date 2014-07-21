@@ -1,4 +1,4 @@
-var person = require("./person");
+var Person = require("./person");
 
 function Manager(name, contact) {
   // set name and contact
