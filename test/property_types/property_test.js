@@ -128,6 +128,30 @@ describe("Property", function(){
 
     });
 
+    describe("#availableUnits", function(){
+      it("should return available units",function(){
+        var newUnit = new Unit("807", myProperty, 500, 2050);
+        myProperty.units = [myUnit, newUnit];
+        myProperty.setManager(manager);
+        tenant.addReference(contactOne);
+        tenant.addReference(contactTwo);
+        myProperty.addTenant(myUnit, tenant);
+        expect(myProperty.availableUnits()).to.eql([newUnit]);
+      });
+    });
+
+
+    describe("#rentedUnits", function(){
+      it("should return rented units",function(){
+        var newUnit = new Unit("807", myProperty, 500, 2050);
+        myProperty.units = [myUnit, newUnit];
+        myProperty.setManager(manager);
+        tenant.addReference(contactOne);
+        tenant.addReference(contactTwo);
+        myProperty.addTenant(myUnit, tenant);
+        expect(myProperty.rentedUnits()).to.eql([myUnit]);
+      });
+    });
 
 
 

@@ -41,11 +41,17 @@ Property.prototype.removeTenant = function(unit, tenant) {
 };
 
 Property.prototype.availableUnits = function(){
-  // return num of units available
+  // return units available
+  return this.units.filter(function(unit){
+    return unit.available();
+  })
 }
 
 Property.prototype.rentedUnits = function(){
   // return rented units
+  return this.units.filter(function(unit){
+    return !unit.available();
+  })
 }
 
 
